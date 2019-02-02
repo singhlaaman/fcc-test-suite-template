@@ -1,0 +1,46 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+@media screen and (min-width: 769px) and (max-width: 4000px){
+nav{
+    width: 20%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+#main-doc{
+    position: absolute;
+    width: 75%;
+    right: 0;
+    top: 0;
+    padding: 0 2.5%;
+}
+#navbar ul{
+    padding: 0;
+}
+}
+#navbar ul li{
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    line-height: 32px;
+    list-style: none;
+    padding: 0;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+   #navbar{
+    position: relative;
+    width: 100%;
+   }
+   #main-doc{
+       position: relative;
+       width: 100%;
+   }
+  }
+
